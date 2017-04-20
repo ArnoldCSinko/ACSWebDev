@@ -1,0 +1,21 @@
+body{
+	padding-top: 70px;
+}
+
+.navbar-inverse{
+	background: url('https://hd.unsplash.com/photo-1451431487663-470c5380d27c');
+	color:#CDD2D4;
+}
+
+.jumbotron{
+	color: white;
+	background: url('https://hd.unsplash.com/photo-1451431487663-470c5380d27c');
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+ }
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
