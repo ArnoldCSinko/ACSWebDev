@@ -19,7 +19,7 @@
   .box img{
     width: 30px;
   }
-  
+
   .caption p {
     font-size: 10px;
     padding-left: 0px;
@@ -34,13 +34,22 @@ html{
 
 body{
   over-flow: hidden;
-  background-color: black;  
+  background-color: black;
   color: var(--custom-blue);
   font-family: var(--main-font);
   padding: 0px;
   margin: 0px;
   height: 100%;
   width: 100%;
+
+}
+
+.hero-overlay{
+  min-height: 100%;
+  min-width: 100%;
+  background-color: rgba(0,0,0,0.5);
+  margin:0;
+  padding:0;
 
 }
 
@@ -52,16 +61,16 @@ body{
     left:       0;
     height:     100%;
     width:      100%;
-    background: rgba( 255, 255, 255, .8 ) 
-                url('http://i.stack.imgur.com/FhHRx.gif') 
-                50% 50% 
+    background: rgba( 255, 255, 255, .8 )
+                url('http://i.stack.imgur.com/FhHRx.gif')
+                50% 50%
                 no-repeat;
 }
 
 /* When the body has the loading class, we turn
    the scrollbar off with overflow:hidden */
 body.loading {
-    overflow: hidden;   
+    overflow: hidden;
 }
 
 /* Anytime the body has the loading class, our
@@ -72,7 +81,7 @@ body.loading .modal {
 
 h3{
   color: #B8BCC6;
-  
+
   font-weight: 500;
 }
 .boxes{
@@ -83,7 +92,7 @@ h3{
 
 .box{
 /*   text-align: center; */
- 
+
 }
 
 .box img{
@@ -91,11 +100,11 @@ h3{
 }
 
 .box p{
-  
+
   color: var(--custom-orange);
 }
 
-#about{  
+#about{
   background-image: url("https://images.unsplash.com/photo-1417577097439-425fb7dec05e?");
    background-repeat: no-repeat;
   background-size: cover;
@@ -108,13 +117,13 @@ h3{
 .fancy-h1{
   font-family: var(--pacifico);
   text-shadow: 1px 1px 0px black;
-  text-decoration: none; 
+  text-decoration: none;
   color: var(--custom-blue);
 }
 
 
 p{
-  color: white;  
+  color: white;
   text-shadow: 1px 1px 0px black;
   font-weight: 500;
 }
@@ -134,7 +143,7 @@ hr{
 
 #projects{
 /*   background-image: url("https://images.unsplash.com/photo-1437419764061-2473afe69fc2"); */
-  
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
@@ -171,13 +180,13 @@ a img:hover{
 }
 
 #splash{
- 
-  padding-top: 200px;  
+
+  padding-top: 200px;
   background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 10%;
-  
+
 }
 
 .section{
@@ -250,7 +259,7 @@ a img:hover{
   border-radius: 0;
   font-family: 'Droid Sans', sans-serif;
   font-size: 1.7em;
-  
+
 }
 #main-nav li{
   padding-top: 10px;
@@ -264,7 +273,7 @@ a img:hover{
 #main-nav li a:hover{
 
   color: white;
-  
+
 }
 
   .proj-preview{
